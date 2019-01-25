@@ -1,0 +1,45 @@
+.round {
+  border-radius: 50%;
+}
+
+.multbg-top-to-bottom-left {
+  border-top: 3px solid black;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+  background-image: -webkit-linear-gradient(#000, transparent);
+  background-image:
+      -moz-linear-gradient(#fc4f02, transparent),
+      -moz-linear-gradient(#fc4f02, transparent);
+  background-image:
+      -o-linear-gradient(#fc4f02, transparent),
+      -o-linear-gradient(#fc4f02, transparent);
+  background-image: 
+      linear-gradient(transparent, #fc4f02 , transparent),
+      linear-gradient(transparent, black);
+  -moz-background-size: 3px 100%;
+  background-size: 3px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat; 
+}
+
+.multbg-top-to-bottom {
+  border-top: 3px solid black;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+  background-image: -webkit-linear-gradient(#000, transparent);
+  background-image:
+      -moz-linear-gradient(#fc4f02, transparent),
+      -moz-linear-gradient(#fc4f02, transparent);
+  background-image:
+      -o-linear-gradient(#fc4f02, transparent),
+      -o-linear-gradient(#fc4f02, transparent);
+  background-image: 
+      linear-gradient(transparent, #000),
+      linear-gradient(transparent, #fc4f02 , transparent);
+  -moz-background-size: 3px 100%;
+  background-size: 3px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat; 
+}
+/*.round:hover {
+    webkit-filter: blur(4px);  Chrome, Safari, Opera 
+    filter: blur(4px);
+}*/
