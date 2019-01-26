@@ -1,20 +1,13 @@
 .round {
   border-radius: 50%;
+  border : 4px solid #fc4f02;
 }
 
-.multbg-top-to-bottom-left {
-  border-top: 3px solid black;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
-  background-image: -webkit-linear-gradient(#000, transparent);
-  background-image:
-      -moz-linear-gradient(#fc4f02, transparent),
-      -moz-linear-gradient(#fc4f02, transparent);
-  background-image:
-      -o-linear-gradient(#fc4f02, transparent),
-      -o-linear-gradient(#fc4f02, transparent);
+/*.multbg-top-to-bottom-left {
+  border-top: 3px solid #;
   background-image: 
       linear-gradient(transparent, #fc4f02 , transparent),
-      linear-gradient(transparent, black);
+      linear-gradient(transparent, transparent , transparent);
   -moz-background-size: 3px 100%;
   background-size: 3px 100%;
   background-position: 0 0, 100% 0;
@@ -22,24 +15,33 @@
 }
 
 .multbg-top-to-bottom {
-  border-top: 3px solid black;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
-  background-image: -webkit-linear-gradient(#000, transparent);
-  background-image:
-      -moz-linear-gradient(#fc4f02, transparent),
-      -moz-linear-gradient(#fc4f02, transparent);
-  background-image:
-      -o-linear-gradient(#fc4f02, transparent),
-      -o-linear-gradient(#fc4f02, transparent);
   background-image: 
-      linear-gradient(transparent, #000),
+      linear-gradient(transparent, transparent , transparent),
       linear-gradient(transparent, #fc4f02 , transparent);
   -moz-background-size: 3px 100%;
   background-size: 3px 100%;
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat; 
-}
+}*/
 /*.round:hover {
     webkit-filter: blur(4px);  Chrome, Safari, Opera 
     filter: blur(4px);
 }*/
+
+/* Gradient transparent - color - transparent */
+
+hr.style-two-wide {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fc4f02, rgba(0, 0, 0, 0));
+@media (max-width: 600px)
+{
+  .multbg-top-to-bottom-left
+  {
+    display: none;
+  }
+  .multbg-top-to-bottom
+  {
+    display: none;
+  }
+}

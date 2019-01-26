@@ -156,28 +156,31 @@
         var statSection = $(".s-stats"),
             stats = $(".stats__count");
 
+        var count__ = 0;
+
         statSection.waypoint({
 
             handler: function(direction) {
 
                 if (direction === "down") {
 
-                    stats.each(function () {
-                        var $this = $(this);
+                    if(count__ == 0){
+                        stats.each(function () {
+                            var $this = $(this);
 
-                        $({ Counter: 0 }).animate({ Counter: $this.text() }, {
-                            duration: 4000,
-                            easing: 'swing',
-                            step: function (curValue) {
-                                $this.text(Math.ceil(curValue));
-                            }
+                            $({ Counter: 0 }).animate({ Counter: $this.text() }, {
+                                duration: 4000,
+                                easing: 'swing',
+                                step: function (curValue) {
+                                    $this.text(Math.ceil(curValue));
+                                }
+                            });
                         });
-                    });
+                    count__ = 1;
+                }
 
                 } 
 
-                // trigger once only
-                this.destroy();
 
             },
 

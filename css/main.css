@@ -1013,10 +1013,10 @@ input::-moz-focus-inner {
  * markup:
  *
  * <aside class="pull-quote">
- *    <blockquote>
- *      <p></p>
- *    </blockquote>
- *  </aside>
+ *		<blockquote>
+ *			<p></p>
+ *		</blockquote>
+ *	</aside>
  *
  * --------------------------------------------------------------------- */
 .pull-quote {
@@ -1054,8 +1054,8 @@ input::-moz-focus-inner {
  * markup:
  *
  * <ul class="stats-tabs">
- *    <li><a href="#">[value]<em>[name]</em></a></li>
- *  </ul>
+ *		<li><a href="#">[value]<em>[name]</em></a></li>
+ *	</ul>
  *
  * Extend this object into your markup.
  *
@@ -1354,7 +1354,6 @@ input::-moz-focus-inner {
   transition: all 0.3s ease-in-out;
 }
 .header-logo img {
-
   height: 60px;
 }
 
@@ -1641,7 +1640,7 @@ input::-moz-focus-inner {
   }
   .header-logo img {
     width: 180px;
-    height: 60px;
+    height: 34px;
   }
 
   .header-menu-toggle {
@@ -2889,7 +2888,8 @@ html.no-csstransitions .home-content__main {
 .s-stats {
   padding-top: 4.2rem;
   padding-bottom: 4.2rem;
-  background-color: #000000;
+  background-color: #111111;
+  background-image : url(../images/finale.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2899,7 +2899,7 @@ html.no-csstransitions .home-content__main {
 .s-stats::before {
   display: block;
   content: "";
-  background-color: #000000;
+  background-color: #111111;
   position: absolute;
   top: 0;
   left: 0;
@@ -3732,11 +3732,12 @@ input:focus + .indicator:after {
   color: #fc4f02;
 }
 
-hr.style-two {
-    width: 40%;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fc4f02, rgba(0, 0, 0, 0));
+hr.style-two-black
+{
+  width: 40%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255,255,255,0), #000000, rgba(255,255,255,0))
 }
 
 /* Cloud */
@@ -3750,3 +3751,87 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     content: "\00a0";  /* Prevent margin collapse */
 }
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fc4f02; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fc4f02; 
+}
+
+#reg-popup
+{
+  display: none;
+}
+
+#reg-overlay
+{
+  display: none;
+}
+
+@media (max-width: 600px)
+{
+  .popup
+  {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 601px)
+{
+  .popup
+  {
+    min-height: 70vh; 
+    width: 50vw;
+    overflow-x: hidden;
+    border-radius: 2%;
+  }
+  
+}
+
+#tempid
+{
+  
+}
+
+@media (min-width: 601px)
+{
+  .reg-input
+  {
+    width: 40%;
+  }
+}
+
+@media (max-width: 600px)
+{
+  .reg-input
+  {
+    width: 80%;
+  } 
+}
+
+.home-sidelinks a:hover{
+  color : #fc4f02;
+}
