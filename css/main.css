@@ -3452,6 +3452,22 @@ hr.style-two
   background-image: linear-gradient(to right, rgba(0,0,0,0), #fc4f02, rgba(0,0,0,0))
 }
 
+hr.style-three
+{
+  width: 40%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0,0,0,0), #111111, rgba(0,0,0,0))
+}
+
+hr.style-four
+{
+  width: 40%;
+  border: 0;
+  height: 1px;
+  background-color: #111111;
+}
+
 
 h2{
   text-align:center;
