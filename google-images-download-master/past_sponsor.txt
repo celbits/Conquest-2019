@@ -1,0 +1,24 @@
+google
+intel
+yahoo
+hp
+dell
+microsoft
+blackberry
+accelpartners
+kaecapital
+ibm
+sequoiacapital
+groupon
+<seedfund>
+payu
+wns
+amazonwebservices
+dcb bank
+digital ocean
+sap
+matrix
+adityabirlagroup
+oraclefinancialservices
+myntra
+zoho
