@@ -3832,11 +3832,37 @@ hr.style-five:after {  /* Not really supposed to work, but does */
   
 }
 
+#oncomputer-socialcop
+{
+  display: none;
+}
+
+#onphone-socialcops
+{
+  display: none;
+}
+
 @media (min-width: 601px)
 {
   .reg-input
   {
     width: 40%;
+  }
+  #oncomputer-socialcops
+  {
+    display: block;
+  }
+  #onphone-socialcops
+  {
+    display: none;
+  }
+  #oncomputer-swagene
+  {
+    display: block;
+  }
+  #onphone-swagene
+  {
+    display: none;
   }
 }
 
@@ -3845,9 +3871,26 @@ hr.style-five:after {  /* Not really supposed to work, but does */
   .reg-input
   {
     width: 80%;
-  } 
+  }
+  #oncomputer-socialcops
+  {
+    display: none;
+  }
+  #onphone-socialcops
+  {
+    display: block;
+  }
+  #oncomputer-swagene
+  {
+    display: none;
+  }
+  #onphone-swagene
+  {
+    display: block;
+  }
 }
 
 .home-sidelinks a:hover{
   color : #fc4f02;
 }
+
