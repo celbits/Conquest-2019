@@ -85,7 +85,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #fc4f02;
+  color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -93,7 +93,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #26bfb5;
+  color: #fc4f02;
 }
 
 a:hover,
