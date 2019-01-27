@@ -1760,7 +1760,7 @@ input::-moz-focus-inner {
   display: block;
   width: 6.5rem;
   height: 1px;
-  background-color: #fc4f02;
+  background-color: #55555500;
   position: absolute;
   left: 6px;
   top: 2.7rem;
