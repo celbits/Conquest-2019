@@ -2905,7 +2905,7 @@ html.no-csstransitions .home-content__main {
   padding-top: 4.2rem;
   padding-bottom: 4.2rem;
   background-color: #111111;
-  background-image : url(../images/finale.jpeg);
+  /*background-image : url(../images/finale.jpeg);*/
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
