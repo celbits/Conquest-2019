@@ -3640,6 +3640,9 @@ h2{
 
 @media (min-width: 601px)
 {
+  .success{
+    left: 3%;
+  }
   .home-button
   {
     width: 30%; 
